@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f0e8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #654321;
+    color: white;
+    padding: 25px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+button {
+    background-color: #654321;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b5e3c;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 8px;
+    width: 250px;
+}
+
+.room {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}

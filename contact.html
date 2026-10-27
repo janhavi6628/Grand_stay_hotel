@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Grand Stay Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>Send us your booking enquiry</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Booking Enquiry</h2>
+
+        <form onsubmit="return bookRoom()">
+            <input type="text" id="name"
+                placeholder="Enter your name" required>
+            <br>
+
+            <input type="email" id="email"
+                placeholder="Enter your email" required>
+            <br>
+
+            <textarea id="request"
+                placeholder="Your enquiry"></textarea>
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>Grand Stay Hotel | 2026</p>
+    </footer>
+
+    <script>
+        function bookRoom() {
+            var name = document.getElementById("name").value;
+
+            document.getElementById("message").innerHTML =
+                "Thank you, " + name + "! Your enquiry has been noted.";
+
+            return false;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hotel>
+    <name>Grand Stay Hotel</name>
+    <location>Mumbai</location>
+
+    <rooms>
+        <room>
+            <type>Single Room</type>
+            <price>1500</price>
+        </room>
+
+        <room>
+            <type>Double Room</type>
+            <price>2500</price>
+        </room>
+
+        <room>
+            <type>Deluxe Room</type>
+            <price>4000</price>
+        </room>
+    </rooms>
+</hotel>

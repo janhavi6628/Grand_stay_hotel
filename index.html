@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grand Stay Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Grand Stay Hotel</h1>
+        <p>Your comfort, our priority!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to Grand Stay Hotel</h2>
+        <p>Enjoy a comfortable and relaxing stay with us.</p>
+
+        <button onclick="welcome()">Explore Hotel</button>
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>Grand Stay Hotel | 2026</p>
+    </footer>
+
+    <script>
+        function welcome() {
+            document.getElementById("message").innerHTML =
+                "Welcome! We look forward to serving you.";
+        }
+    </script>
+
+</body>
+</html>
+
